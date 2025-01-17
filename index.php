@@ -15,7 +15,7 @@ session_start();
 <body>
     <div class="video-background">
         <video autoplay muted loop id="background-video">
-            <source src="image/cherry_blossom.mp4" type="video/mp4">
+            <source src="../image/cherry_blossom.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -23,7 +23,7 @@ session_start();
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="image/logo.png" alt="Salon Elegance logo" class="logo-img">
+                <img src="../image/logo.png" alt="Salon Elegance logo" class="logo-img">
             </div>
             <nav class="main-nav">
                 <div class="salon-info">
