@@ -15,7 +15,7 @@ session_start();
 <body>
     <div class="video-background">
         <video autoplay muted loop id="background-video">
-            <source src="/image1/cherry_blossom.mp4" type="video/mp4">
+            <source src="image1/cherry_blossom.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -34,8 +34,8 @@ session_start();
                     <li class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>"><a href="index.php">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="php/contact.php">Contact</a></li>
-                    <li><a href="php/products.php">Products</a></li>
+                    <li><a href="../php/contact.php">Contact</a></li>
+                    <li><a href="../php/products.php">Products</a></li>
                     <li><a href="./php/cart.php">Cart</a></li>
                 </ul>
             </nav>
